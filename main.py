@@ -3,7 +3,7 @@
 import pyperclip
 from time import sleep
 from sneakysnek.recorder import Recorder
-from translations import detect_translate  # NOQA
+from translations import detect_translate
 
 key_status = {
     'CTRL': None
