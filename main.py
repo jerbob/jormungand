@@ -1,4 +1,4 @@
-"""Main program file."""
+"""Main script file: Detection and translation of keypresses"""
 
 import pyperclip
 from time import sleep
