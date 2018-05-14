@@ -1,10 +1,10 @@
-"""Main translator file: English <-> Elder Farthark."""
+"""Main translator file: Functions to translate and detect runes."""
 
 from tables import english_table, futhark_table
 
 
 def translate(query, is_futhark=False):
-    """Translate a string from Futhark <-> English."""
+    """Translate a string from Futhark to and from English."""
     if is_futhark is True:
         translation = query.translate(english_table)
     else:
