@@ -1,26 +1,6 @@
 """Main translator file: English <-> Elder Farthark."""
 
-english_alpha = 'yqfuþarkcgwhnijïæpzstbemlŋod'
-futhark_alpha = 'ᛃᚲᚠᚢᚦᚨᚱᚲᚲᚷᚹᚺᚾᛁᛃᛇᛇᛈᛉᛋᛏᛒᛖᛗᛚᛜᛟᛞ'
-
-futhark_table = str.maketrans(
-    english_alpha, futhark_alpha
-)
-
-futhark_table.update(
-    {ord('x'): 'ᚲᛋ'}
-)
-
-english_table = {
-    value: key for key, value in futhark_table.items()
-}
-
-english_table.update(
-    {
-        ord('ᚦ'): 'th',
-        ord('ᛝ'): 'ng'
-    }
-)
+from tables import english_table, futhark_table
 
 
 def translate(query, is_futhark=False):
