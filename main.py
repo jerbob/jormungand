@@ -40,6 +40,6 @@ while True:
     try:
         time.sleep(0.1)
     except KeyboardInterrupt:
-        logger.info('Recieved KeyboardInterrupt. Quitting...\n')
+        logger.info('Received KeyboardInterrupt. Quitting...\n')
         recorder.stop()
         sys.exit()
