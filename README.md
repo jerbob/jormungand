@@ -1,4 +1,7 @@
 # Jormungand
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/23514514b39c422194904be956a077f7)](https://app.codacy.com/app/AnonGuy/Jormungand?utm_source=github.com&utm_medium=referral&utm_content=AnonGuy/Jormungand&utm_campaign=Badge_Grade_Dashboard)
+
 A Python program to translate between English and Elder Futhark Runes.
 
 # How to use
