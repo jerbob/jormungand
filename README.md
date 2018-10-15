@@ -7,7 +7,7 @@ A Python program to translate between English and Elder Futhark Runes.
 # How to use
 To use Jormungand, first install the dependencies with [pipenv](https://github.com/pypa/pipenv):
 ```bash
-pipenv install
+pipenv sync
 ```
 Then run the script with:
 ```bash
